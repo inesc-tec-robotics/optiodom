@@ -1,4 +1,4 @@
-# OptiOdom: An Steering-Agnostic Approach for Odometry Calibration of Wheeled Mobile Robots - GitHub Repository
+# OptiOdom: A Generic Approach for Odometry Calibration of Wheeled Mobile Robots - GitHub Repository
 
 - [About the Project](#about-the-project)
 - [Getting Started](#getting-started)
@@ -9,6 +9,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Contacts](#contacts)
+- [References](#references)
 - [Acknowledgements](#acknowledgements)
 - [Funding](#funding)
 
@@ -88,17 +89,19 @@ See [Documentation](https://github.com/sousarbarb/odometry-calibration/wiki) for
 
 ## Usage
 
-Example for a differential drive robot using the calibrated kinematic parameters computed by the proposed method:
+Example for a differential drive robot on an arbitrary path with the calibrated kinematic parameters computed by OptiOdom using a circular or an arbitrary calibration path:
 
 ![diff-arbitrary](https://user-images.githubusercontent.com/36474064/105555069-89e80700-5d00-11eb-858b-2d4779ce4122.png)
 
-Example for a tricycle robot using the calibrated kinematic parameters computed by the proposed method:
+Example for a tricycle robot on an arbitrary path with the calibrated kinematic parameters computed by OptiOdom using a circular or an arbitrary calibration path:
 
 ![tricyc-arbitrary](https://user-images.githubusercontent.com/36474064/105555068-89e80700-5d00-11eb-8021-2af2f1bf9003.png)
 
-Example for a three-wheeled omnidirectional robot using the calibrated kinematic parameters computed by the proposed method:
+Example for a three-wheeled omnidirectional robot on an arbitrary path with the calibrated kinematic parameters computed by OptiOdom using a square or an arbitrary calibration path:
 
 ![omni3-arbitrary](https://user-images.githubusercontent.com/36474064/105555066-894f7080-5d00-11eb-846b-8c676c5aec3f.png)
+
+Additional media content is available on a YouTube playlist ([link](https://www.youtube.com/playlist?list=PLvp8fJUEPxYTynUkIx7ltScg7alYVlSM3)) to help perform different possible calibration paths for OptiOdom and the ones proposed in the odometry calibration methods considered in the article.
 
 ## Contributing
 
@@ -125,11 +128,18 @@ If you have any questions or you want to know more about the work developed by u
 
 Project Link: <https://github.com/sousarbarb/odometry-calibration>
 
+## References
+
+Sousa, R.B., Petry, M.R., Costa, P.G. _et al._ OptiOdom: a Generic Approach for Odometry Calibration of Wheeled Mobile Robots. _J Intell Robot Syst_ **105**, 39 (2022). https://doi.org/10.1007/s10846-022-01630-3 ([preprint](https://dx.doi.org/10.13140/RG.2.2.22803.35364))
+
+Sousa, R.B.: Odometry and Extrinsic Sensor Calibration on Mobile Robots. Master's Thesis, Faculty of Engineering of the University of Porto (FEUP), INESC TEC - Institute for Systemsand Computer Engineering, Technology and Science, Porto, Portugal. https://doi.org/10.13140/RG.2.2.27052.28802 (2020)
+
+R. B. Sousa, M. R. Petry and A. P. Moreira, "Evolution of Odometry Calibration Methods for Ground Mobile Robots," _2020 IEEE International Conference on Autonomous Robot Systems and Competitions (ICARSC)_, 2020, pp. 294-299, doi: [10.1109/ICARSC49921.2020.9096154](https://doi.org/10.1109/ICARSC49921.2020.9096154) ([presentation](https://dx.doi.org/10.13140/RG.2.2.14990.48966))
+
 ## Acknowledgements
 
 - [CRIIS - Centre for Robotics in Industry and Intelligent Systems](https://criis.inesctec.pt/) from [INESC TEC - Institute for Systems and Computer Engineering, Technology and Science](https://www.inesctec.pt/en)
 - [Faculty of Engineering, University of Porto (FEUP)](https://sigarra.up.pt/feup/en/WEB_PAGE.INICIAL)
-- [Universidade de Trás-os-Montes e Alto Douro (UTAD)](https://www.utad.pt/en/)
 
 ## Funding
 
